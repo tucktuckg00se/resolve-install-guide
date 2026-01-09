@@ -4,6 +4,8 @@ This guide covers installing DaVinci Resolve Studio inside a distrobox container
 
 > **Note:** DaVinci Resolve does not support Wayland natively and requires X11 to run. If you're using Wayland as your display server, Resolve will run through XWayland.
 
+> **Note:** **I have not tested this install guide with AMD or Intel GPUs**
+
 ---
 
 ## Prerequisites
