@@ -272,17 +272,6 @@ QT_QPA_PLATFORM=xcb ./resolve
 
 ---
 
-### Debug Qt Plugin Loading
-
-Run with debug output to see what's failing:
-
-```bash
-cd /opt/resolve/bin/
-QT_DEBUG_PLUGINS=1 ./resolve
-```
-
----
-
 ### Verify GPU Access
 
 **For NVIDIA:**
