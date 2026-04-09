@@ -39,6 +39,16 @@ distrobox create resolve -i rockylinux/rockylinux
 - `--nvidia` (NVIDIA only) passes through GPU access to the container
 - AMD GPUs automatically get `/dev/dri` access, so no special flags are needed
 
+**"no unqualified-search registries are defined" error**
+
+Create or add the following to ~/.config/containers/registries.conf
+```
+unqualified-search-registries = ["docker.io"]
+
+[[registry]]
+location = "docker.io"
+```
+
 Enter the container:
 
 ```bash
@@ -118,7 +128,7 @@ cd ~/Downloads
 Make the installer executable (replace with your actual version):
 
 ```bash
-chmod +x DaVinci_Resolve_Studio_20.3.1_Linux.run
+chmod +x DaVinci_Resolve_Studio_20.3.2_Linux.run
 ```
 
 ---
@@ -126,7 +136,7 @@ chmod +x DaVinci_Resolve_Studio_20.3.1_Linux.run
 ### Run the Installer
 
 ```bash
-sudo -E QT_QPA_PLATFORM=xcb ./DaVinci_Resolve_Studio_20.3.1_Linux.run -i
+sudo -E QT_QPA_PLATFORM=xcb ./DaVinci_Resolve_Studio_20.3.2_Linux.run -i
 ```
 
 **What this does:**
@@ -204,6 +214,12 @@ EOF
 ```
 
 > DaVinci Resolve should now appear in your application menu and can be launched like any other application.
+
+---
+
+### Icon
+
+Extract the 'DaVinci_Resolve_Studio_20.3.2_Linux.run' file in your downloads folder. It should contain an icon 'DV_Resolve.png'. Copy this icon to ~/.local/share/icons
 
 ---
 
