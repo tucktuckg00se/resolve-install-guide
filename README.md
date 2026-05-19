@@ -25,13 +25,13 @@ This guide covers installing DaVinci Resolve Studio inside a distrobox container
 **For NVIDIA GPUs:**
 
 ```bash
-distrobox create --nvidia resolve -i rockylinux/rockylinux
+distrobox create --nvidia resolve -i rockylinux/rockylinux:9
 ```
 
 **For AMD GPUs:**
 
 ```bash
-distrobox create resolve -i rockylinux/rockylinux
+distrobox create resolve -i rockylinux/rockylinux:9
 ```
 
 **What this does:**
