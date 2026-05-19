@@ -88,13 +88,13 @@ sudo crb enable
 Install all the libraries and tools that DaVinci Resolve needs:
 
 ```bash
-sudo dnf install ocl-icd libxcrypt pciutils libnsl fuse fuse-libs alsa-lib apr apr-util fontconfig freetype libglvnd libglvnd-egl libglvnd-glx libglvnd-opengl libgomp librsvg2 libXcursor libXfixes libXi libXinerama libxkbcommon libxkbcommon-x11 libXrandr libXrender libXtst libXxf86vm mesa-libGLU mtdev pulseaudio-libs xcb-util xcb-util-cursor xcb-util-image xcb-util-keysyms xcb-util-renderutil xcb-util-wm
+sudo dnf install ocl-icd libxcrypt libxcrypt-compat pciutils libnsl fuse fuse-libs alsa-lib apr apr-util fontconfig freetype libglvnd libglvnd-egl libglvnd-glx libglvnd-opengl libgomp librsvg2 libXcursor libXfixes libXi libXinerama libxkbcommon libxkbcommon-x11 libXrandr libXrender libXtst libXxf86vm mesa-libGLU mtdev pulseaudio-libs xcb-util xcb-util-cursor xcb-util-image xcb-util-keysyms xcb-util-renderutil xcb-util-wm
 ```
 or
 
 If you are using pipewire:
 ```bash
-sudo dnf install ocl-icd libxcrypt pciutils libnsl fuse fuse-libs alsa-lib alsa-utils pipewire-alsa apr apr-util fontconfig freetype libglvnd libglvnd-egl libglvnd-glx libglvnd-opengl libgomp librsvg2 libXcursor libXfixes libXi libXinerama libxkbcommon libxkbcommon-x11 libXrandr libXrender libXtst libXxf86vm mesa-libGLU mtdev pulseaudio-libs xcb-util xcb-util-cursor xcb-util-image xcb-util-keysyms xcb-util-renderutil xcb-util-wm
+sudo dnf install ocl-icd libxcrypt libxcrypt-compat pciutils libnsl fuse fuse-libs alsa-lib alsa-utils pipewire-alsa apr apr-util fontconfig freetype libglvnd libglvnd-egl libglvnd-glx libglvnd-opengl libgomp librsvg2 libXcursor libXfixes libXi libXinerama libxkbcommon libxkbcommon-x11 libXrandr libXrender libXtst libXxf86vm mesa-libGLU mtdev pulseaudio-libs xcb-util xcb-util-cursor xcb-util-image xcb-util-keysyms xcb-util-renderutil xcb-util-wm
 ```
 
 
